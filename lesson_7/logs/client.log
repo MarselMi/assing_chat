@@ -1,0 +1,35 @@
+2023-05-12 19:32:44,502 CRITICAL config_client_log.py Критическая ошибка
+2023-05-12 19:32:44,502 ERROR config_client_log.py Ошибка
+2023-05-12 19:32:44,502 DEBUG config_client_log.py Отладочная информация
+2023-05-12 19:32:44,502 INFO config_client_log.py Информационное сообщение
+2023-05-12 19:33:36,534 DEBUG decos.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2023-05-12 19:33:36,534 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2023-05-12 19:33:36,534 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2023-05-12 19:33:36,534 DEBUG decos.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля __main__
+2023-05-12 19:33:36,534 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41072), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1683909216.534379, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля common.utils
+2023-05-12 19:33:36,535 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 41072), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля common.utils
+2023-05-12 19:33:36,535 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2023-05-12 19:33:36,535 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__
+2023-05-12 19:33:36,535 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-05-12 19:35:47,409 DEBUG decos.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2023-05-12 19:35:47,410 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2023-05-12 19:35:47,410 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2023-05-12 19:35:47,410 DEBUG decos.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля __main__
+2023-05-12 19:35:47,410 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43352), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1683909347.4105701, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля common.utils
+2023-05-12 19:35:47,411 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 43352), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля common.utils
+2023-05-12 19:35:47,411 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2023-05-12 19:35:47,411 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__
+2023-05-12 19:35:47,411 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
+2023-05-12 19:36:32,497 CRITICAL config_client_log.py Критическая ошибка
+2023-05-12 19:36:32,497 ERROR config_client_log.py Ошибка
+2023-05-12 19:36:32,497 DEBUG config_client_log.py Отладочная информация
+2023-05-12 19:36:32,497 INFO config_client_log.py Информационное сообщение
+2023-05-12 19:39:49,297 DEBUG decos.py Была вызвана функция arg_parser c параметрами (), {}. Вызов из модуля __main__
+2023-05-12 19:39:49,298 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1, порт: 7777, режим работы: listen
+2023-05-12 19:39:49,298 DEBUG client.py Сформировано presence сообщение для пользователя Guest
+2023-05-12 19:39:49,298 DEBUG decos.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля __main__
+2023-05-12 19:39:49,298 DEBUG decos.py Была вызвана функция send_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57610), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1683909589.2982717, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля common.utils
+2023-05-12 19:39:49,299 DEBUG decos.py Была вызвана функция get_message c параметрами (<socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 57610), raddr=('127.0.0.1', 7777)>,), {}. Вызов из модуля common.utils
+2023-05-12 19:39:49,299 DEBUG client.py Разбор приветственного сообщения от сервера: {'response': 200}
+2023-05-12 19:39:49,299 DEBUG decos.py Была вызвана функция process_response_ans c параметрами ({'response': 200},), {}. Вызов из модуля __main__
+2023-05-12 19:39:49,299 INFO client.py Установлено соединение с сервером. Ответ сервера: 200 : OK
