@@ -19,7 +19,7 @@ LOGGER = logging.getLogger('server')
 @log
 def process_client_message(message, messages_list, client):
     """
-    Обработчик сообщений от клиентов, принимает словарь - сообщение от клинта,
+    Обработчик сообщений от клиентов, принимает словарь - сообщение от клинта ,
     проверяет корректность, отправляет словарь-ответ для клиента с результатом приёма.
     :param message:
     :param messages_list:
