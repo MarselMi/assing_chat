@@ -18,6 +18,9 @@ class ServerStorage:
         name = Column(String(50), unique=True)
         last_login = Column(DateTime())
 
+        def __init__(self, name):
+            self.name = name
+
     # Класс - отображение таблицы активных пользователей:
     class ActiveUsers(Base):
         __tablename__ = 'active_users_table'
@@ -27,6 +30,12 @@ class ServerStorage:
         port = Column(Integer())
         login_time = Column(DateTime())
 
+        def __init__(self, user, ip_address, port, login_time):
+            self.user = user
+            self.ip_address = ip_address
+            self.port = port
+            self.login_time = login_time
+
     # Класс - отображение таблицы истории входов
     class LoginHistory(Base):
         __tablename__ = 'user_login_history'
@@ -35,6 +44,12 @@ class ServerStorage:
         date_time = Column(DateTime())
         ip = Column(String())
         port = Column(String())
+
+        def __init__(self, ip, date_time, name, port):
+            self.ip = ip
+            self.date_time = date_time
+            self.name = name
+            self.port = port
 
     # Создаём таблицы
     Base.metadata.create_all(database_engine)
